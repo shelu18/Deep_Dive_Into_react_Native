@@ -1,19 +1,16 @@
-import React from 'react';
-import {
-  View,
-  Text,
-  SafeAreaView
-} from 'react-native';
-function App() {   // we have initialise the method so we have to write this into return method
+import { View, Text,SafeAreaView,ScrollView } from 'react-native'
+import React from 'react'
+import flatCards from './Components/FlatCards'
+import FlatCards from './Components/FlatCards'
+
+const App = () => {
   return (
-    <SafeAreaView> 
-      <View>
-        <Text>Hello World</Text>
-      </View>
+    <SafeAreaView>
+        <ScrollView>
+        <FlatCards/>
+      </ScrollView>
     </SafeAreaView>
   );
 }
-export default App;
-//view is like a div in html
-//text is like a p in html
-//SafeAreaView is used to make the app safe from the notch of the phone
+
+export default App
