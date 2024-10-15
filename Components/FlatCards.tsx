@@ -30,14 +30,14 @@ const styles = StyleSheet.create({
   },
   container: {  // Changed 'Container' to 'container'
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'space-around',//to change the default behavior of the flexbox container
     marginTop: 20,
   },
   card: {
     height: 100,
     width: 100,
     borderRadius: 10,
-    justifyContent: 'center',
+    justifyContent: 'center',  //how can make this cards scorabble in the center
     alignItems: 'center',
   },
   card1: {
