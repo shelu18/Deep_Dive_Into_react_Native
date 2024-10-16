@@ -33,7 +33,9 @@ const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
         fontWeight: 'bold',
-        paddingHorizontal: 8
+        paddingHorizontal: 8,
+        paddingVertical: 8,
+        paddingTop: 20
     },
     container: {
         padding:8
