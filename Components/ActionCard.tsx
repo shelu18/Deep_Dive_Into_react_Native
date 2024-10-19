@@ -18,7 +18,7 @@ export default function ActionCard() {
         </View>
         <Image
         source={{
-            uri: 'https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            uri: 'https://media.istockphoto.com/id/1284271878/photo/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming.jpg?s=2048x2048&w=is&k=20&c=piD8nDrCFVdHuLf-wlpEIwWgE_ccNmPuarOJQE2m1vY=',
           }}
         style={styles.cardImage}
         />
@@ -37,7 +37,7 @@ export default function ActionCard() {
                 <Text style={styles.socialLinks} >Read More</Text>
             </TouchableOpacity>
             <TouchableOpacity
-            onPress={() => openWebsite('https://www.instagram.com/hiteshchoudharyofficial/')}
+            onPress={() => openWebsite('https://www.linkedin.com/in/shailendraparihar07/')}
             >
                 <Text style={styles.socialLinks}>Follow me</Text>
             </TouchableOpacity>
